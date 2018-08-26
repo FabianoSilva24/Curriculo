@@ -156,11 +156,41 @@ footer a img:hover{
     background-color: black;
 }
 
+@media (max-width: 700px){
+    header{
+        height: 600px;
+        width: 333px;
+        padding-top: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .scale{
+        padding-left: 110px;
+    }
+    header ul li{
+        padding-top: 60px;
+    }
 
-
-
-
-
+    .bloco2{ 
+        width: 534px;
+        padding: 0%;
+    }
+    .bloco3{
+        width: 514px;
+    }
+    .bloco4{
+        width: 514px;
+    }
+    footer{
+        width: 534px;
+        justify-content: center;
+    }
+}
 
 
 ::-webkit-scrollbar {
